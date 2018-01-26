@@ -1,0 +1,164 @@
+digraph G {
+rankdir=BT 
+layout = dot
+splines = true
+overlap = false
+sep ="+10, +10"
+esep ="+8, +8"
+outputorder=edgesfirst
+node [shape=plain]
+
+30 [label=< 
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD border="0">   </TD>
+    <TD PORT="27"> o1 </TD>
+    <TD border="0">   </TD>
+    <TD PORT="28"> o2 </TD>
+    <TD border="0">   </TD>
+    <TD PORT="29"> o3 </TD>
+    <TD border="0">   </TD>
+  </TR>
+  <TR> <TD ROWSPAN="3" COLSPAN="7"> <BR/>A664sw1<BR/> </TD> </TR>
+  <TR> <TD border="0"> </TD> </TR>
+  <TR> <TD border="0"> </TD> </TR>
+  <TR><TD border="0">   </TD>
+    <TD PORT="24"> i1 </TD>
+  <TD border="0">   </TD>
+    <TD PORT="25"> i2 </TD>
+  <TD border="0">   </TD>
+    <TD PORT="26"> i3 </TD>
+  <TD border="0">   </TD>
+  </TR>
+  </TABLE>>];
+
+23 [label=< 
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD border="0">   </TD>
+    <TD PORT="22"> o1 </TD>
+    <TD border="0">   </TD>
+  </TR>
+  <TR> <TD ROWSPAN="3" COLSPAN="3"> <BR/>A664sw2<BR/> </TD> </TR>
+  <TR> <TD border="0"> </TD> </TR>
+  <TR> <TD border="0"> </TD> </TR>
+  <TR><TD border="0">   </TD>
+    <TD PORT="21"> i1 </TD>
+  <TD border="0">   </TD>
+  </TR>
+  </TABLE>>];
+
+20 [label=< 
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD border="0">   </TD>
+    <TD PORT="19"> o1 </TD>
+    <TD border="0">   </TD>
+  </TR>
+  <TR> <TD ROWSPAN="3" COLSPAN="3"> <BR/>ADC1<BR/> </TD> </TR>
+  <TR> <TD border="0"> </TD> </TR>
+  <TR> <TD border="0"> </TD> </TR>
+  </TABLE>>];
+
+18 [label=< 
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD border="0">   </TD>
+    <TD PORT="17"> o1 </TD>
+    <TD border="0">   </TD>
+  </TR>
+  <TR> <TD ROWSPAN="3" COLSPAN="3"> <BR/>IRU2<BR/> </TD> </TR>
+  <TR> <TD border="0"> </TD> </TR>
+  <TR> <TD border="0"> </TD> </TR>
+  </TABLE>>];
+
+16 [label=< 
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD border="0">   </TD>
+    <TD PORT="15"> o1 </TD>
+    <TD border="0">   </TD>
+  </TR>
+  <TR> <TD ROWSPAN="3" COLSPAN="3"> <BR/>IRU1<BR/> </TD> </TR>
+  <TR> <TD border="0"> </TD> </TR>
+  <TR> <TD border="0"> </TD> </TR>
+  </TABLE>>];
+
+14 [label=< 
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD border="0">   </TD>
+    <TD PORT="13"> o1 </TD>
+    <TD border="0">   </TD>
+  </TR>
+  <TR> <TD ROWSPAN="3" COLSPAN="9"> <BR/>FMA1<BR/> </TD> </TR>
+  <TR> <TD border="0"> </TD> </TR>
+  <TR> <TD border="0"> </TD> </TR>
+  <TR><TD border="0">   </TD>
+    <TD PORT="9"> i1 </TD>
+  <TD border="0">   </TD>
+    <TD PORT="10"> i2 </TD>
+  <TD border="0">   </TD>
+    <TD PORT="11"> i3 </TD>
+  <TD border="0">   </TD>
+    <TD PORT="12"> i4 </TD>
+  <TD border="0">   </TD>
+  </TR>
+  </TABLE>>];
+
+8 [label=< 
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD border="0">   </TD>
+    <TD PORT="7"> o1 </TD>
+    <TD border="0">   </TD>
+  </TR>
+  <TR> <TD ROWSPAN="3" COLSPAN="3"> <BR/>DCM2<BR/> </TD> </TR>
+  <TR> <TD border="0"> </TD> </TR>
+  <TR> <TD border="0"> </TD> </TR>
+  <TR><TD border="0">   </TD>
+    <TD PORT="6"> i1 </TD>
+  <TD border="0">   </TD>
+  </TR>
+  </TABLE>>];
+
+5 [label=< 
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD border="0">   </TD>
+    <TD PORT="4"> o1 </TD>
+    <TD border="0">   </TD>
+  </TR>
+  <TR> <TD ROWSPAN="3" COLSPAN="3"> <BR/>DCM1<BR/> </TD> </TR>
+  <TR> <TD border="0"> </TD> </TR>
+  <TR> <TD border="0"> </TD> </TR>
+  <TR><TD border="0">   </TD>
+    <TD PORT="3"> i1 </TD>
+  <TD border="0">   </TD>
+  </TR>
+  </TABLE>>];
+
+2 [label=< 
+  <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+  <TR><TD border="0">   </TD>
+    <TD PORT="1"> o1 </TD>
+    <TD border="0">   </TD>
+  </TR>
+  <TR> <TD ROWSPAN="3" COLSPAN="3"> <BR/>vote-ss<BR/> </TD> </TR>
+  <TR> <TD border="0"> </TD> </TR>
+  <TR> <TD border="0"> </TD> </TR>
+  <TR><TD border="0">   </TD>
+    <TD PORT="0"> i1 </TD>
+  <TD border="0">   </TD>
+  </TR>
+  </TABLE>>];
+
+node [shape=box]Result1 [label="Results
+loa=6.0e-05
+ued=2.2e-06"]2:1 -> Result1[arrowhead=none style=dashed];
+
+
+14:13 -> 2:0 ;
+30:27 -> 14:9 ;
+30:28 -> 14:10 ;
+30:29 -> 14:11 ;
+23:22 -> 14:12 ;
+20:19 -> 23:21 ;
+5:4 -> 30:24 ;
+8:7 -> 30:25 ;
+20:19 -> 30:26 ;
+16:15 -> 5:3 ;
+18:17 -> 8:6 ;
+}
